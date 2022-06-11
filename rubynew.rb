@@ -3,3 +3,4 @@ puts "hello dir friend"
 drago = gets
 puts " Твой выбор + #{drago}"
 86.downto(100) { |o| puts "бегу к своим годам #{o}" }
+puts "У тебя лучшая жена на свете"
