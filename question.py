@@ -1,0 +1,7 @@
+name = input("Введите имена через запяпую: ")
+t_numb = input("Укажите номера телефонов через запятую: ")
+print(name.split(","))
+print(t_numb.split(","))
+name = name.split(",")
+t_numb = t_numb.split(",")
+print(f"{name[0]}: {t_numb[0]} \n{name[1]}: {t_numb[1]} \n{name[2]}: {t_numb[2]} \n{name[3]}: {t_numb[3]}")
